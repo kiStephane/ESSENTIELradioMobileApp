@@ -1,0 +1,28 @@
+{
+    "de.appplant.cordova.plugin.local-notification": {
+        "source": {
+            "type": "local",
+            "path": "../../cordova-plugin-local-notifications"
+        }
+    },
+    "nl.x-services.plugins.launchmyapp": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/EddyVerbruggen/LaunchMyApp-PhoneGap-Plugin.git",
+            "subdir": "."
+        }
+    },
+    "com.uniclau.alarmplugin": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/uniclau/AlarmPlugin.git",
+            "subdir": "."
+        }
+    },
+    "com.plugin.datepicker": {
+        "source": {
+            "type": "registry",
+            "id": "com.plugin.datepicker"
+        }
+    }
+}

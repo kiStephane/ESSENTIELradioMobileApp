@@ -1,0 +1,14 @@
+.ui-icon-music:after {background-image: url(images_icons/music.png);/* Make your icon fit */background-size: 18px 18px;}
+.ui-icon-headphones:after {background-image: url(images_icons/headphones.png);/* Make your icon fit */background-size: 18px 18px;}
+.ui-icon-thumbs-up:after {background-image: url(images_icons/thumbs-up.png);/* Make your icon fit */background-size: 18px 18px;}
+.ui-icon-twitter:after {background-image: url(images_icons/twitter.png);/* Make your icon fit */background-size: 18px 18px;}
+.ui-icon-facebook:after {background-image: url(images_icons/facebook.png);/* Make your icon fit */background-size: 18px 18px;}
+.ui-icon-facebook2:after {background-image: url(images_icons/facebook2.png);/* Make your icon fit */background-size: 18px 18px;}
+.ui-icon-soundcloud:after {background-image: url(images_icons/soundcloud.png);/* Make your icon fit */background-size: 18px 18px;}
+.ui-icon-youtube:after {background-image: url(images_icons/youtube.png);/* Make your icon fit */background-size: 18px 18px;}
+.ui-icon-instagram:after {background-image: url(images_icons/instagram.png);/* Make your icon fit */background-size: 18px 18px;}
+.ui-icon-er:after {background-image: url(../img/logo-3.png);/* Make your icon fit */background-size: 18px 18px;}
+.ui-icon-fr:after {background-image: url(../img/fr_logo-3.png);/* Make your icon fit */background-size: 18px 18px;}
+.ui-icon-pause:after {background-image: url(images_icons/pause.png);/* Make your icon fit */background-size: 18px 18px;}
+.ui-icon-play:after {background-image: url(images_icons/play.png);/* Make your icon fit */background-size: 18px 18px;}
+.ui-icon-alarm:after {background-image: url(images_icons/alarm.png);

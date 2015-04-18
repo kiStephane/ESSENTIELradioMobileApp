@@ -1,0 +1,396 @@
+<html>
+      <head>
+        <title>ESSENTIEL radio</title>
+
+        <link rel="stylesheet" href="css/themes/ER-TEST.min.css" />
+        <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="css/perso.icons.min.css" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
+
+        <script type="text/javascript" charset="utf-8" src="js/jquery.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery.mobile.min.js"></script>
+
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/essentiel.js"></script>
+
+        <script type="text/javascript" charset="utf-8" src="js/moment.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/moment-timezone-with-data.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/updateInfo.js"></script>
+
+        <script type="text/javascript" charset="utf-8" src="js/plugins/SocialSharing.js"></script>
+        <script>
+          $( document ).on( "pagecreate", function() {
+            $( "body > [data-role='panel']" ).panel();
+            $( "body > [data-role='panel'] [data-role='listview']" ).listview();
+          });
+        </script>
+
+          <script>
+              init();
+          </script>
+
+      <style type="text/css">
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        #share-buttons img {
+        width: 50px;
+        padding: 5px;
+        border: 0;
+        box-shadow: 0;
+        display: inline;
+      }
+        .center-wrapper{
+            text-align: center;
+            color: #283333;
+        }
+        .center-wrapper * {
+            margin: 0 auto;
+        }
+
+      </style>
+      <style type="text/css">
+
+      </style>
+      </head>
+      <body>
+
+      <!-- HOME -->
+      <div data-role="page" id="home" data-url="home">
+
+        <div data-role="panel" data-display="reveal" data-position="right" id="panel_paroles">
+            <p id="title_paroles">Titre:</p><br>
+            <p id="auteur_paroles">Auteur:</p><br>
+            <p id="contenu_paroles">Paroles</p>
+        </div><!-- /panel -->
+
+        <div data-role = "header" data-iconpos = "left" data-position = "fixed" class="ui-alt-icon ui-nodisc-icon">
+          <h1>ESSENTIEL radio</h1>
+          <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+          <a href="#panel_paroles" data-icon="music" class= "ui-btn-icon-right" data-iconpos="notext">Paroles</a>
+        </div><!-- /header-->
+
+        <div data-role="content">
+            
+            <div>
+              <!--<img style= "max-height: 60%;max-width: 60%" id="current-radio" src="img/logo.png" /> -->
+              <img id="current-radio" src="img/logo.png" />
+            </div>
+
+            <div class="center-wrapper">
+              <div id = 'titre_piste' > ESSENTIEL radio </div>
+              <div id = 'audio_duration' > 0 sec </div>
+            </div>
+
+            <div >
+              <a href="#" onclick = "playAudio();" ><img id ="im_play" src="img/play-2.png"/></a>
+            </div>
+            <br>
+            <div align="center" id="share-buttons">
+                <a href ="#" onclick="shareTwitter();" target="_blank"><img src="img/reseaux_sociaux_2/Twitter-icon.png" alt="Twitter" /></a>
+                <a href ="#" onclick="shareFacebook();" target="_blank"><img src="img/reseaux_sociaux_2/Facebook-icon.png" alt="Facebook" /></a>
+                <a href ="#" onclick="shareOtherApp();" target="_blank"><img src="img/reseaux_sociaux_2/ShareThis-icon.png" alt="ShareThis" /></a>
+            </div>
+
+            <div class="center-wrapper">
+                <div id = 'coming_soon' > Coming soon:  </div>
+            </div>
+
+        </div>
+
+          <div data-role="footer" align="center" data-position="fixed">
+              <div data-type="horizontal">
+                <a href="#" class="ui-btn-inline" onclick="switchTo('er');" id= "er"><img src="img/logo52x48.png" /></a>
+                <a href="#" class="ui-btn-inline"  onclick="switchTo('fr');" id="fr"><img src="img/fr_logo52x49.png" /></a>
+              </div>
+              <!--<div data-role="controlgroup" data-type="horizontal">
+              <a href="#" onclick="switchTo('er');" data-role="button">ESSENTIEL radio</a>
+              <a href="#" onclick="switchTo('fr');" data-role="button">ESSENTIEL fr</a>
+          </div>-->
+
+        </div> <!-- /footer-->
+
+       </div> 
+
+      <!-- PANEL -->
+      <div data-role="panel" data-position-fixed="true" data-display="push" data-theme="a"
+           class="ui-alt-icon ui-nodisc-icon" id="nav-panel" data-swipe-close="true">
+        <ul data-role="listview"  data-divider-theme="a" >
+        <li data-role="list-divider">MENU</li>
+            <li data-icon="audio"><a href="#home" >Live</a></li>
+            <li data-icon="headphones"><a href="#podcast" >Podcasts</a></li>
+            <li data-icon="thumbs-up"><a href="#share" >Suis ESSENTIEL partout</a></li>
+            <li data-icon="info"><a href="#" >Qui sommes nous ?</a></li>
+                        
+        <li data-role="list-divider">LES WEB RADIO</li> 
+            <li data-icon="er"><a href="#home" onclick="switchTo('er');">ESSENTIEL radio</a></li>
+            <li data-icon="fr"><a href="#home" onclick="switchTo('fr');">ESSENTIEL fr</a></li>
+        </ul>      
+      </div> <!-- PANEL-->
+
+      <!-- PODCASTS-->
+      <div data-role="page" id="podcast" data-url="podcast">
+
+        <div data-role="header" data-iconpos="left" data-position="fixed" class="ui-alt-icon ui-nodisc-icon">
+          <h1>Podcasts</h1>
+          <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+        </div><!-- /header-->
+
+        <div data-role="content">
+          <div class="ui-grid-a">
+
+            <div class="ui-block-a">
+              <a href="#podcast_campusacademy"><img src="img/emissions/campusacademy_150x150.jpg"/></a> </br>
+              <a href="#podcast_transformeur" ><img src="img/emissions/Le-Transformeur-v2_150x150.jpg" /></a></br>
+              <a href="#podcast_espoir" ><img src="img/emissions/Espoir180_150x150.jpg" /> </a></br>
+              <a href="#podcast_goodnews" ><img src="img/emissions/good-news_150x150.jpg" /> </a>
+            </div>
+            <div class="ui-block-b">
+              <a href="#podcast_actu" ><img src="img/emissions/lactu-autrement_150x150.jpg" /></a></br>
+              <a href="#podcast_sequence7"><img src="img/emissions/Sequence7_150x150.jpg" /></a></br>
+              <a href="#podcast_topfeminin" ><img src="img/emissions/topfeminin_150x150.jpg" /></a></br>
+              <a href="#podcast_jdg" ><img src="img/emissions/journaldugospel2014_150x150.jpg" /></a></br>
+              <a href="#podcast_lyononline" ><img src="img/emissions/lyononline2014_150x150.jpg" /></a>
+            </div>
+
+          </div><!-- /grid-a -->
+        </div>
+      </div> <!-- /PODCASTS-->
+
+
+      <!-- CAMPUS ACADEMY-->
+      <div data-role="page" id="podcast_campusacademy" data-url="podcast_campusacademy">
+
+          <div data-role="panel" data-display="reveal" data-position="right" id="info_campusacademy">
+              Informations sur le campus academy
+          </div><!-- /panel -->
+
+          <div data-role="header" data-iconpos="left" data-position="fixed" class="ui-alt-icon ui-nodisc-icon">
+              <h1>Campus Academy</h1>
+              <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+              <a href="#info_campusacademy" data-icon="info" class= "ui-btn-icon-right" data-iconpos="notext">Info</a>
+          </div><!-- /header-->
+
+          <div data-role="content">
+              <iframe width="100%" height="420" scrolling="no" frameborder="no"
+                      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/58814059&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=true"></iframe>
+
+              <button id = "btn_pause_campus" onclick = "playAudio();" class="ui-btn ui-icon-play ui-btn-icon-right">En cours</button>
+          </div>
+
+      </div> <!-- /CAMPUS ACADEMY-->
+
+
+      <!-- LE TRANSFORMEUR-->
+      <div data-role="page" id="podcast_transformeur" data-url="podcast_transformeur">
+
+          <div data-role="panel" data-display="reveal" data-position="right" id="info_transformeur">
+          Informations sur le transformeur
+          </div><!-- /panel -->
+
+        <div data-role="header" data-iconpos="left" data-position="fixed" class="ui-alt-icon ui-nodisc-icon">
+          <h1>Le Transformeur</h1>
+          <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+          <a href="#info_transformeur" data-icon="info" class= "ui-btn-icon-right" data-iconpos="notext">Info</a>
+        </div><!-- /header-->
+
+        <div data-role="content">
+          <iframe width="100%" height="420" scrolling="no" frameborder="no"
+                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/13480956">
+          </iframe>
+
+          <button id = "btn_pause_transfo" onclick = "playAudio();" class="ui-btn ui-icon-play ui-btn-icon-right">En cours</button>
+
+        </div>
+
+      </div> <!-- /LE TRANSFORMEUR-->
+
+
+      <!-- SEQUENCE 7-->
+      <div data-role="page" id="podcast_sequence7" data-url="podcast_sequence7">
+
+          <div data-role="panel" data-display="reveal" data-position="right" id="info_sequence7">
+              Informations sur Sequence 7
+          </div><!-- /panel -->
+
+        <div data-role="header" data-iconpos="left" data-position="fixed" class="ui-alt-icon ui-nodisc-icon">
+          <h1>Sequence 7</h1>
+          <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+          <a href="#info_sequence7" data-icon="info" class= "ui-btn-icon-right" data-iconpos="notext">Info</a>
+        </div><!-- /header-->
+
+        <div data-role="content">
+
+        </div>
+
+      </div> <!-- /SEQUENCE 7-->
+
+
+      <!-- LE JDG -->
+      <div data-role="page" id="podcast_jdg" data-url="podcast_jdg">
+          <div data-role="panel" data-display="reveal" data-position="right" id="info_jdg">
+              Informations sur le JDG
+          </div><!-- /panel -->
+
+        <div data-role="header" data-iconpos="left" data-position="fixed" class="ui-alt-icon ui-nodisc-icon">
+          <h1>Le JDG</h1>
+          <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+          <a href="#info_jdg" data-icon="info" class= "ui-btn-icon-right" data-iconpos="notext">Info</a>
+        </div><!-- /header-->
+
+        <div data-role="content">
+          <iframe width="100%" height="420" scrolling="no" frameborder="no"
+                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/13447697&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+          </iframe>
+
+          <button id = "btn_pause_jdg" onclick = "playAudio();" class="ui-btn ui-icon-play ui-btn-icon-right">En cours</button>
+
+        </div>
+
+      </div> <!-- /LE JDG-->
+
+
+      <!-- ESPOIR 180 -->
+      <div data-role="page" id="podcast_espoir" data-url="podcast_espoir">
+          <div data-role="panel" data-display="reveal" data-position="right" id="info_espoir">
+              Informations sur Espoir 180
+          </div><!-- /panel -->
+
+          <div data-role="header" data-iconpos="left" data-position="fixed" class="ui-alt-icon ui-nodisc-icon">
+              <h1>Espoir 180</h1>
+              <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+              <a href="#info_espoir" data-icon="info" class= "ui-btn-icon-right" data-iconpos="notext">Info</a>
+          </div><!-- /header-->
+
+          <div data-role="content">
+          Pas de podcast disponible sur soundcloud.
+          </div>
+
+      </div> <!-- /ESPOIR 180-->
+
+
+      <!-- GOOD NEWS -->
+      <div data-role="page" id="podcast_goodnews" data-url="podcast_goodnews">
+          <div data-role="panel" data-display="reveal" data-position="right" id="info_goodnews">
+              Informations sur Good News
+          </div><!-- /panel -->
+
+          <div data-role="header" data-iconpos="left" data-position="fixed" class="ui-alt-icon ui-nodisc-icon">
+              <h1>Good News</h1>
+              <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+              <a href="#info_goodnews" data-icon="info" class= "ui-btn-icon-right" data-iconpos="notext">Info</a>
+          </div><!-- /header-->
+
+          <div data-role="content">
+              Pas de podcast disponible sur soundcloud.
+          </div>
+
+      </div> <!-- /GOOD NEWS-->
+
+      <!-- L'ACTU AUTREMENT -->
+      <div data-role="page" id="podcast_actu" data-url="podcast_actu">
+          <div data-role="panel" data-display="reveal" data-position="right" id="info_actu">
+              Informations sur L'actu autrement
+          </div><!-- /panel -->
+
+          <div data-role="header" data-iconpos="left" data-position="fixed" class="ui-alt-icon ui-nodisc-icon">
+              <h1>L'actu Autrement</h1>
+              <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+              <a href="#info_goodnews" data-icon="info" class= "ui-btn-icon-right" data-iconpos="notext">Info</a>
+          </div><!-- /header-->
+
+          <div data-role="content">
+              Pas de podcast disponible sur soundcloud.
+          </div>
+
+      </div> <!-- /L'ACTU AUTREMENT-->
+
+      <!-- TOP FEMININ-->
+      <div data-role="page" id="podcast_topfeminin" data-url="podcast_topfeminin">
+          <div data-role="panel" data-display="reveal" data-position="right" id="info_topfeminin">
+              Informations sur Top Feminin
+          </div><!-- /panel -->
+
+          <div data-role="header" data-iconpos="left" data-position="fixed" class="ui-alt-icon ui-nodisc-icon">
+              <h1>Top Feminin</h1>
+              <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+              <a href="#info_goodnews" data-icon="info" class= "ui-btn-icon-right" data-iconpos="notext">Info</a>
+          </div><!-- /header-->
+
+          <div data-role="content">
+              Pas de podcast disponible sur soundcloud.
+          </div>
+
+      </div> <!-- /TOP FEMININ-->
+
+      <!-- LYON ONLINE-->
+      <div data-role="page" id="podcast_lyononline" data-url="podcast_lyononline">
+          <div data-role="panel" data-display="reveal" data-position="right" id="info_lyononline">
+              Informations sur Lyon Online
+          </div><!-- /panel -->
+
+          <div data-role="header" data-iconpos="left" data-position="fixed" class="ui-alt-icon ui-nodisc-icon">
+              <h1>Lyon Online</h1>
+              <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+              <a href="#info_goodnews" data-icon="info" class= "ui-btn-icon-right" data-iconpos="notext">Info</a>
+          </div><!-- /header-->
+
+          <div data-role="content">
+              Pas de podcast disponible sur soundcloud.
+          </div>
+
+      </div> <!-- /LYON ONLINE-->
+
+      <!-- SUIS ESSENTIEL -->
+      <div data-role="page" id="share" data-url="share">
+        <div data-role="header" data-iconpos="left" data-position="fixed" class="ui-alt-icon ui-nodisc-icon">
+            <h1>Suis ESSENTIEL</h1>
+        <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+           </div><!-- /header-->
+
+           <div data-role="content">
+               <div class="ui-grid-a">
+
+                   <div class="ui-block-a">
+                       <a href="#" onclick="essentiel_on_facebbok();"><img src="img/reseaux_sociaux/Facebook-icon1.png"/></a> </br>
+                       <a href="#" onclick="essentiel_on_twitter();" ><img src="img/reseaux_sociaux/Twitter-icon1.png" /></a></br>
+                       <a href="#" onclick="essentiel_on_soundcloud();"><img src="img/reseaux_sociaux/Soundcloud-icon1.png" /> </a></br>
+                   </div>
+                   <div class="ui-block-b">
+                       <a href="#" onclick="essentiel_on_youtube();"><img src="img/reseaux_sociaux/Youtube-icon1.png" /></a></br>
+                       <!--<a href="#" onclick="essentiel_on_googleplus();"><img src="img/reseaux_sociaux/Google-Plus-icon1.png"/></a></br>-->
+                       <a href="#" onclick="essentiel_on_pinterest()"><img src="img/reseaux_sociaux/Pinterest-icon1.png" /></a></br>
+                       <a href="#" onclick="essentiel_on_instagram()"><img src="img/reseaux_sociaux/Instagram-icon1.png" /></a>
+                   </div>
+
+               </div><!-- /grid-a -->
+
+           </div>
+
+          </div>
+      </div> <!-- /SUIS ESSENTIEL-->
+
+      <!-- Soutient ta radio -->
+      <div data-role="page" id="soutient" data-url="soutient">
+        <div data-role="header" data-iconpos="left" data-position="fixed" class="ui-alt-icon ui-nodisc-icon">
+            <h1>SOUTIENS TA RADIO</h1>
+        <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+           </div><!-- /header-->
+
+           <div data-role="content">            
+           </div>
+
+           <div id="message">            
+           </div>
+
+           <div id="liens">           
+           </div>
+
+          </div>
+      </div> <!-- /Soutient ta radio -->
+      
+      </div>      
+      </body>
+    </html>

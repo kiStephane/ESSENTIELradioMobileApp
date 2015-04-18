@@ -1,0 +1,28 @@
+#!/bin/sh
+
+echo "--- Device ? ... "
+read emulId
+
+if [ $emulId -eq 5 ]
+then
+	# How to launch Nexus 5 emulator from command line
+	echo "--- Nexus 5 emulator launching or running... "
+	/Users/stephaneki/Dev/adt-bundle/sdk/tools/emulator -avd Nexus_5_API_21 -no-boot-anim
+	echo "--- Nexus 5 emulator stopped !"
+elif [ $emulId -eq 4 ]
+	then
+		# How to launch Nexus 4 emulator from command line
+		echo "--- Nexus 4 emulator launching or running ... "
+		/Users/stephaneki/Dev/adt-bundle/sdk/tools/emulator -avd Nexus_4_API_14 -no-boot-anim
+		echo "--- Nexus 4 emulator stopped !"
+elif [[ $emulId -eq 10 ]]; 
+	then
+		# How to launch Nexus 10 emulator from command line
+		echo "--- Nexus 10 emulator launching or running... "
+		/Users/stephaneki/Dev/adt-bundle/sdk/tools/emulator -avd Nexus_10_API_19 -no-boot-anim
+		echo "--- Nexus 10 emulator stopped !"
+	else
+		echo "--- Error ... "
+fi
+
+

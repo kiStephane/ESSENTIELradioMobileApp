@@ -1,0 +1,168 @@
+2015-01-23 16:42:23.640 ESSENTIEL radio[6305:594590] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stephaneki/Library/Developer/CoreSimulator/Devices/AC427E61-6BDF-4ACF-931B-F45898BC8F61/data/Containers/Data/Application/A377B166-9840-4716-92A2-B420EB4915D4/Library/Cookies/Cookies.binarycookies
+2015-01-23 16:42:25.021 ESSENTIEL radio[6305:594590] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-23 16:42:25.022 ESSENTIEL radio[6305:594590] Multi-tasking -> Device: YES, App: YES
+2015-01-23 16:42:25.062 ESSENTIEL radio[6305:594590] Unlimited access to network resources
+2015-01-23 16:42:25.071 ESSENTIEL radio[6305:594590] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-23 16:42:26.538 ESSENTIEL radio[6305:594590] [CDVTimer][socialsharing] 211.525977ms
+2015-01-23 16:42:26.661 ESSENTIEL radio[6305:594590] [CDVTimer][file] 121.831000ms
+2015-01-23 16:42:26.661 ESSENTIEL radio[6305:594590] [CDVTimer][TotalPluginStartup] 333.848000ms
+2015-01-23 16:42:28.719 ESSENTIEL radio[6305:594590] Resetting plugins due to page load.
+2015-01-23 16:42:33.819 ESSENTIEL radio[6305:594590] THREAD WARNING: ['Device'] took '57.730957' ms. Plugin should use a background thread.
+2015-01-23 16:42:33.895 ESSENTIEL radio[6305:594590] THREAD WARNING: ['File'] took '22.606201' ms. Plugin should use a background thread.
+2015-01-23 16:42:34.793 ESSENTIEL radio[6305:594590] THREAD WARNING: ['SpinnerDialog'] took '665.542236' ms. Plugin should use a background thread.
+2015-01-23 16:42:34.862 ESSENTIEL radio[6305:594590] THREAD WARNING: ['Media'] took '12.588135' ms. Plugin should use a background thread.
+2015-01-23 16:42:34.862 ESSENTIEL radio[6305:594590] Will use resource 'http://str81.streamakaci.com:80/' from the Internet.
+2015-01-23 16:42:35.285 ESSENTIEL radio[6305:594590] Failed to initialize AVAudioPlayer: The operation couldn’t be completed. (OSStatus error 1954115647.)
+2015-01-23 16:42:35.286 ESSENTIEL radio[6305:594590] THREAD WARNING: ['Media'] took '424.415039' ms. Plugin should use a background thread.
+2015-01-23 16:42:35.918 ESSENTIEL radio[6305:594590] THREAD WARNING: ['Notification'] took '629.659912' ms. Plugin should use a background thread.
+2015-01-23 16:42:37.004 ESSENTIEL radio[6305:594590] Finished load of: file:///Users/stephaneki/Library/Developer/CoreSimulator/Devices/AC427E61-6BDF-4ACF-931B-F45898BC8F61/data/Containers/Bundle/Application/F5027859-EFA4-4FCA-8C31-68B4012EE476/ESSENTIEL%20radio.app/www/index.html
+2015-01-23 16:47:31.456 ESSENTIEL radio[6885:615755] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-23 16:47:31.457 ESSENTIEL radio[6885:615755] Multi-tasking -> Device: YES, App: YES
+2015-01-23 16:47:31.459 ESSENTIEL radio[6885:615755] Unlimited access to network resources
+2015-01-23 16:47:31.471 ESSENTIEL radio[6885:615755] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-23 16:47:31.858 ESSENTIEL radio[6885:615755] [CDVTimer][socialsharing] 106.854975ms
+2015-01-23 16:47:31.926 ESSENTIEL radio[6885:615755] [CDVTimer][file] 67.852974ms
+2015-01-23 16:47:31.926 ESSENTIEL radio[6885:615755] [CDVTimer][TotalPluginStartup] 175.182998ms
+2015-01-23 16:47:32.043 ESSENTIEL radio[6885:615755] Resetting plugins due to page load.
+2015-01-23 16:47:32.779 ESSENTIEL radio[6885:615755] Will use resource 'http://str81.streamakaci.com:80/' from the Internet.
+2015-01-23 16:47:32.919 ESSENTIEL radio[6885:615755] Failed to initialize AVAudioPlayer: The operation couldn’t be completed. (OSStatus error 1954115647.)
+2015-01-23 16:47:32.919 ESSENTIEL radio[6885:615755] THREAD WARNING: ['Media'] took '140.297363' ms. Plugin should use a background thread.
+2015-01-23 16:47:33.013 ESSENTIEL radio[6885:615755] THREAD WARNING: ['Notification'] took '90.664062' ms. Plugin should use a background thread.
+2015-01-23 16:47:33.419 ESSENTIEL radio[6885:615755] Finished load of: file:///Users/stephaneki/Library/Developer/CoreSimulator/Devices/AC427E61-6BDF-4ACF-931B-F45898BC8F61/data/Containers/Bundle/Application/FCC57A6E-9CDB-4454-BF9C-2840CFC02B7E/ESSENTIEL%20radio.app/www/index.html
+2015-01-23 16:49:22.579 ESSENTIEL radio[6885:615755] Media with id faccc72c-beb3-fd8a-8a42-550416e18e70 released
+2015-01-23 16:49:22.579 ESSENTIEL radio[6885:615755] THREAD WARNING: ['Media'] took '13.287842' ms. Plugin should use a background thread.
+2015-01-23 16:49:22.581 ESSENTIEL radio[6885:615755] Will use resource 'http://essentielradioing.streamakaci.com/essentielfr.mp3' from the Internet.
+2015-01-23 16:49:32.581 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:49:42.582 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:49:52.582 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:50:02.595 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:50:12.596 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:50:22.597 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:50:32.597 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:50:42.598 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:50:52.598 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:51:02.599 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:51:12.599 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:51:22.600 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:51:32.600 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:51:42.601 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:51:52.602 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:52:02.603 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:52:12.636 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:52:22.637 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:52:32.638 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:52:42.639 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:52:52.640 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:53:02.641 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:53:12.642 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:53:22.643 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:53:32.644 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:53:42.677 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:53:52.678 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:54:02.678 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:54:12.679 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:54:22.680 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:54:32.681 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:54:42.682 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:54:52.683 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:55:02.684 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:55:12.685 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:55:22.686 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:55:32.687 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:55:42.688 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:55:52.689 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:56:02.689 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:56:12.690 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:56:22.691 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:56:32.722 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:56:42.723 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:56:52.724 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:57:02.747 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:57:12.781 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:57:22.815 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:57:32.849 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:57:42.850 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:57:52.884 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:58:02.884 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:58:12.885 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:58:22.885 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:58:32.898 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:58:42.899 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:58:52.900 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:59:02.901 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:59:12.901 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:59:22.902 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:59:32.903 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:59:42.904 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 16:59:52.904 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:00:02.905 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:00:12.906 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:00:22.907 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:00:32.908 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:00:42.908 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:00:52.909 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:01:02.910 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:01:12.911 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:01:22.911 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:01:32.912 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:01:42.913 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:01:52.914 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:02:02.915 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:02:12.916 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:02:22.917 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:02:32.918 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:02:42.918 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:02:52.919 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:03:02.919 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:03:12.920 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:03:22.921 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-23 17:03:32.921 ESSENTIEL radio[6885:616044] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-02-02 11:27:13.763 ESSENTIEL radio[20355:926807] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-02 11:27:13.791 ESSENTIEL radio[20355:926807] Multi-tasking -> Device: YES, App: YES
+2015-02-02 11:27:13.848 ESSENTIEL radio[20355:926807] Unlimited access to network resources
+2015-02-02 11:27:13.886 ESSENTIEL radio[20355:926807] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-02 11:27:15.352 ESSENTIEL radio[20355:926807] [CDVTimer][socialsharing] 268.458009ms
+2015-02-02 11:27:15.466 ESSENTIEL radio[20355:926807] [CDVTimer][file] 113.454998ms
+2015-02-02 11:27:15.466 ESSENTIEL radio[20355:926807] [CDVTimer][TotalPluginStartup] 382.304013ms
+2015-02-02 11:27:16.544 ESSENTIEL radio[20355:926807] Resetting plugins due to page load.
+2015-02-02 11:27:19.900 ESSENTIEL radio[20355:926807] THREAD WARNING: ['Device'] took '45.468994' ms. Plugin should use a background thread.
+2015-02-02 11:27:21.638 ESSENTIEL radio[20355:926807] THREAD WARNING: ['SpinnerDialog'] took '1018.026123' ms. Plugin should use a background thread.
+2015-02-02 11:27:21.762 ESSENTIEL radio[20355:926807] Will use resource 'http://str81.streamakaci.com:80/' from the Internet.
+2015-02-02 11:27:22.095 ESSENTIEL radio[20355:926807] Failed to initialize AVAudioPlayer: The operation couldn’t be completed. (OSStatus error 1954115647.)
+2015-02-02 11:27:22.096 ESSENTIEL radio[20355:926807] THREAD WARNING: ['Media'] took '334.136963' ms. Plugin should use a background thread.
+2015-02-02 11:27:22.465 ESSENTIEL radio[20355:926807] THREAD WARNING: ['Notification'] took '353.100098' ms. Plugin should use a background thread.
+2015-02-02 11:27:22.883 ESSENTIEL radio[20355:926807] Finished load of: file:///Users/stephaneki/Library/Developer/CoreSimulator/Devices/AC427E61-6BDF-4ACF-931B-F45898BC8F61/data/Containers/Bundle/Application/799C6AEA-9AA0-4DF7-A855-653203265484/ESSENTIEL%20radio.app/www/index.html
+2015-02-02 11:28:09.647 ESSENTIEL radio[20355:926807] THREAD WARNING: ['SocialSharing'] took '334.316162' ms. Plugin should use a background thread.
+2015-02-02 11:28:49.207 ESSENTIEL radio[20355:926807] THREAD WARNING: ['SocialSharing'] took '545.829102' ms. Plugin should use a background thread.
+2015-02-02 11:28:56.437 ESSENTIEL radio[20355:926807] Media with id 1dac141d-fa15-40eb-bbc0-3711da869d3e released
+2015-02-02 11:28:56.438 ESSENTIEL radio[20355:926807] THREAD WARNING: ['Media'] took '17.312988' ms. Plugin should use a background thread.
+2015-02-02 11:28:56.439 ESSENTIEL radio[20355:926807] Will use resource 'http://essentielradioing.streamakaci.com/essentielfr.mp3' from the Internet.
+2015-02-02 11:29:06.439 ESSENTIEL radio[20355:926871] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-02-02 11:29:16.439 ESSENTIEL radio[20355:926871] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-02-02 11:29:26.440 ESSENTIEL radio[20355:926871] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-02-02 11:29:36.440 ESSENTIEL radio[20355:926871] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-02-02 11:29:46.466 ESSENTIEL radio[20355:926871] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-02-02 11:29:56.477 ESSENTIEL radio[20355:926871] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-02-02 11:30:06.478 ESSENTIEL radio[20355:926871] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-02-02 11:30:16.478 ESSENTIEL radio[20355:926871] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode

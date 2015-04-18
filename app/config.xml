@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.er.essentiel-radio" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    
+    <name>ESSENTIEL radio</name>
+    <description>
+        This is the official radio application for ESSENTIEL radio. 
+    </description>
+    <author email="ki.stephane.dambi@gmail.com" href="http://www.essentielradio.com">
+        ESSENTIEL radio Team
+    </author>
+    <content src="index.html"/>
+    <access origin="*"/>
+    <plugin name="Media" value="org.apache.cordova.AudioHandler"/>
+
+    <!-- for Android -->
+    <feature name="SocialSharing">
+      <param name="android-package" value="nl.xservices.plugins.SocialSharing"/>
+    </feature>
+
+    <!-- for iOS -->
+    <feature name="SocialSharing">
+      <param name="ios-package" value="SocialSharing"/>
+    </feature>
+
+</widget>

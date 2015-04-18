@@ -1,0 +1,43 @@
+
+.ui-page{
+    background:none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+#share-buttons img {
+    width: 50px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
+.center-wrapper{
+    text-align: center;
+    color: #283333;
+}
+.center-wrapper * {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #b0c4de;
+}
+
+#superposition {
+    position: relative;
+    text-align:center;
+}
+
+/* Images est positionnée par rapport au div parent */
+.image_au_dessus {
+    position: absolute;
+}
+
+#im_play {
+    top: 8%;
+    left: 15%;
+}
