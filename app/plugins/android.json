@@ -9,10 +9,6 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"Toast\"><param name=\"android-package\" value=\"nl.xservices.plugins.Toast\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"File\"><param name=\"android-package\" value=\"org.apache.cordova.file.FileUtils\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         },
@@ -50,6 +46,10 @@
                         },
                         {
                             "xml": "<feature name=\"LocalNotification\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.localnotification.LocalNotification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Toast\"><param name=\"android-package\" value=\"nl.xservices.plugins.Toast\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -126,9 +126,6 @@
         }
     },
     "installed_plugins": {
-        "nl.x-services.plugins.toast": {
-            "PACKAGE_NAME": "com.er.essentiel_radio"
-        },
         "org.apache.cordova.file": {
             "PACKAGE_NAME": "com.er.essentiel_radio"
         },
@@ -160,6 +157,9 @@
             "PACKAGE_NAME": "com.er.essentiel_radio"
         },
         "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.er.essentiel_radio"
+        },
+        "nl.x-services.plugins.toast": {
             "PACKAGE_NAME": "com.er.essentiel_radio"
         }
     },

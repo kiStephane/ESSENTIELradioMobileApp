@@ -14,9 +14,9 @@ function Favorite(id, title, artist, image, date){
 function saveFavorite(){
 
     var newFavorite=new Favorite(getIdFromCounter(),
-        getTitle(currentNode),
-        getArtiste(currentNode),
-        getImage(currentNode), new Date());
+        currentNode.titre_nom,
+        currentNode.artiste_nom,
+        currentNode.titre_image_mini, new Date());
 
     var favorites = JSON.parse(localStorage.getItem("favorites"), function(k, v) {
         if(k === 'date'){
@@ -30,7 +30,7 @@ function saveFavorite(){
 
     addToFavoriteListView(newFavorite);
 
-    window.plugins.toast.show('Favori sauvegardé', 'long', 'center', null, null);
+    window.plugins.toast.showShortCenter('Favori sauvegardé', null, null);
 }
 
 function initFavoritesList(){
@@ -51,7 +51,7 @@ function deleteFavorite(id){
         }
     }
     if(index > -1){
-        favorites.splice(i, 1);
+        favorites.splice(index, 1);
     }
 
 
@@ -61,7 +61,7 @@ function deleteFavorite(id){
     //Delete the view
     document.getElementById("favoritesList").removeChild(document.getElementById(id));
 
-    window.plugins.toast.show('Favori supprimé', 'short', 'bottom', null, null);
+    window.plugins.toast.showShortCenter('Favori supprimé', null, null);
 
 }
 

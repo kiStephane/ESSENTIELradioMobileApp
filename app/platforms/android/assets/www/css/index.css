@@ -41,3 +41,13 @@ body {
     top: 8%;
     left: 15%;
 }
+
+.scroll{
+    min-width: 100%;
+}
+
+.wide-as-needed {
+  overflow: scroll;
+  white-space: nowrap;
+}
+

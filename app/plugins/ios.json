@@ -17,10 +17,6 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Toast\"><param name=\"ios-package\" value=\"Toast\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
                             "count": 1
                         },
@@ -55,6 +51,10 @@
                         {
                             "xml": "<feature name=\"LocalNotification\"><param name=\"ios-package\" onload=\"true\" value=\"APPLocalNotification\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Toast\"><param name=\"ios-package\" value=\"Toast\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -76,6 +76,10 @@
                     "QuartzCore.framework": [
                         {
                             "xml": "false",
+                            "count": 1
+                        },
+                        {
+                            "xml": false,
                             "count": 1
                         }
                     ],
@@ -119,9 +123,6 @@
         "nl.x-services.plugins.socialsharing": {
             "PACKAGE_NAME": "com.er.essentiel-radio"
         },
-        "nl.x-services.plugins.toast": {
-            "PACKAGE_NAME": "com.er.essentiel-radio"
-        },
         "org.apache.cordova.device": {
             "PACKAGE_NAME": "com.er.essentiel-radio"
         },
@@ -147,6 +148,9 @@
             "PACKAGE_NAME": "com.er.essentiel-radio"
         },
         "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.er.essentiel-radio"
+        },
+        "nl.x-services.plugins.toast": {
             "PACKAGE_NAME": "com.er.essentiel-radio"
         }
     },

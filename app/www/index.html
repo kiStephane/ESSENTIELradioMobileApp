@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
     <link rel="stylesheet" href="css/perso.icons.min.css" />
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
 
     <link rel="stylesheet" type="text/css" href="css/index.css">
 
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
 
     <script type="text/javascript" charset="utf-8" src="js/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/jquery.mobile.min.js"></script>
 
     <script type="text/javascript" charset="utf-8" src="js/alarm.js"></script>
@@ -34,7 +36,9 @@
         $(document).on("pagecreate", function () {
             $("body > [data-role='panel']").panel();
             $("body > [data-role='panel'] [data-role='listview']").listview();
+
         });
+
         init();
         initAlarmListView();
     </script>
@@ -43,7 +47,7 @@
 <body>
 
 <!-- HOME -->
-<div data-role="page" id="home" data-url="home">
+<div data-role="page" class="home" id="home" data-url="home">
 
     <div data-role="panel" data-display="reveal" data-position="right" id="panel_paroles">
         <p id="title_paroles">Titre:</p><br>
@@ -88,9 +92,14 @@
 
     </div>
     <div data-role="footer" align="center" data-position="fixed">
-        <div data-type="horizontal">
+        <div data-type="horizontal" style="overflow:auto;">
             <a href="#" class="ui-btn-inline" onclick="switchTo('er');" id= "er"><img src="img/logo52x48.png" /></a>
             <a href="#" class="ui-btn-inline"  onclick="switchTo('fr');" id="fr"><img src="img/fr_logo52x49.png" /></a>
+
+            <!-- <a href="#" class="ui-btn-inline"  onclick="switchTo('fr');" id="fr1"><img src="img/fr_logo52x49.png" /></a>
+            <a href="#" class="ui-btn-inline"  onclick="switchTo('fr');" id="fr2"><img src="img/fr_logo52x49.png" /></a>
+            <a href="#" class="ui-btn-inline"  onclick="switchTo('fr');" id="fr3"><img src="img/fr_logo52x49.png" /></a>
+            <a href="#" class="ui-btn-inline"  onclick="switchTo('fr');" id="fr4"><img src="img/fr_logo52x49.png" /></a>-->
         </div>
     </div> <!-- /footer-->
 

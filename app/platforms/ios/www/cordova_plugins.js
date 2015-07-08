@@ -15,17 +15,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/nl.x-services.plugins.toast/www/Toast.js",
-        "id": "nl.x-services.plugins.toast.Toast",
-        "clobbers": [
-            "window.plugins.toast"
-        ]
-    },
-    {
-        "file": "plugins/nl.x-services.plugins.toast/test/tests.js",
-        "id": "nl.x-services.plugins.toast.tests"
-    },
-    {
         "file": "plugins/org.apache.cordova.device/www/device.js",
         "id": "org.apache.cordova.device.device",
         "clobbers": [
@@ -258,6 +247,17 @@ module.exports = [
             "cordova.plugins.notification.local.core",
             "plugin.notification.local.core"
         ]
+    },
+    {
+        "file": "plugins/nl.x-services.plugins.toast/www/Toast.js",
+        "id": "nl.x-services.plugins.toast.Toast",
+        "clobbers": [
+            "window.plugins.toast"
+        ]
+    },
+    {
+        "file": "plugins/nl.x-services.plugins.toast/test/tests.js",
+        "id": "nl.x-services.plugins.toast.tests"
     }
 ];
 module.exports.metadata = 
@@ -265,7 +265,6 @@ module.exports.metadata =
 {
     "hu.dpal.phonegap.plugins.SpinnerDialog": "1.3.0",
     "nl.x-services.plugins.socialsharing": "4.3.10",
-    "nl.x-services.plugins.toast": "2.0.1",
     "org.apache.cordova.device": "0.2.11",
     "org.apache.cordova.dialogs": "0.2.11",
     "org.apache.cordova.file": "1.3.0",
@@ -274,7 +273,8 @@ module.exports.metadata =
     "org.apache.cordova.vibration": "0.3.12",
     "org.apache.cordova.console": "0.2.13",
     "com.plugin.datepicker": "0.4.0",
-    "de.appplant.cordova.plugin.local-notification": "0.8.2dev"
+    "de.appplant.cordova.plugin.local-notification": "0.8.2dev",
+    "nl.x-services.plugins.toast": "2.0.4"
 }
 // BOTTOM OF METADATA
 });

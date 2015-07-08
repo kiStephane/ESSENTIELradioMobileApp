@@ -64,6 +64,7 @@
 /Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/css/images \
 /Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/css/images_icons \
 /Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/css/index.css \
+/Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/css/jquery-ui.min.css \
 /Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/css/jquery.mobile.icons.min.css \
 /Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/css/jquery.mobile.min.css \
 /Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/css/perso.icons.min.css \
@@ -345,6 +346,7 @@
 /Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/js/alarm.js \
 /Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/js/essentiel.js \
 /Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/js/favorite.js \
+/Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/js/jquery-ui.min.js \
 /Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/js/jquery.min.js \
 /Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/js/jquery.mobile-1.4.5.min.map \
 /Users/stephaneki/Dev/github/ESSENTIELradioMobileApp/app/platforms/android/assets/www/js/jquery.mobile.min.js \

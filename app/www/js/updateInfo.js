@@ -5,7 +5,7 @@ const tz= "Europe/Paris"; // Représente le timezone où se situe le serveur qui
 // permet de gérer la synchronisation.
 
 const imER="img/logo.png";
-const imFR="img/fr_logo.png";
+const imFR="img/fr_logo52x49.png";
 
 
 // --- Variables globales
@@ -55,7 +55,7 @@ function request(callback, sync){
     
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) {
-            callback(xhr.responseXML);
+            callback(JSON.parse(xhr.responseText));
         }
     };
     
@@ -63,9 +63,9 @@ function request(callback, sync){
     xhr.send(null); // TODO We are not sending data so --> Delete this line ?
 }
 
-// Fonction exécutée lorsque on lance la requete pour la première fois.
+// Fonction exécutée lorsqu'on lance la requete pour la première fois.
 function firstFetch(){
-	request(readData, false);
+	request(readData, true);
 }
 
 // Fonction qui permet de parser les informations contenues dans la réponse du serveur.
@@ -73,10 +73,10 @@ function firstFetch(){
 // request.
 function readData(sData){
     if (sData != null) {
-        currentNode = sData.getElementById("SongOnAir");
-        nextNode1 = sData.getElementById("NextSong1");
+        currentNode = sData.songOnAir;
+        nextNode1 = sData.nextSong1;
         nextNode = nextNode1;
-        nextNode2 = sData.getElementById("NextSong2");
+        nextNode2 = sData.nextSong2;
         fetchFlag = true;
         changeInfo();
     } else {
@@ -102,10 +102,16 @@ function readData(sData){
 // les informations sur l'interface.
 function changeInfo(){
 	// Use currentNode pour mettre à jour les info
-    currentTitle=getTitle(currentNode);
-    currentArtist=getArtiste(currentNode);
+    currentTitle=currentNode.titre_nom;
+    currentArtist=currentNode.artiste_nom;
 
-	changeCurrentImage(getImage(currentNode));
+    if(currentNode.titre_image_mini){
+        changeCurrentImage(currentNode.titre_image_mini);
+    }else{
+        changeCurrentImage(currentNode.titre_image);
+    }
+
+
     changeCurrentTitle(currentTitle+" | "+currentArtist);
     changeLyrics(currentTitle,currentArtist,"ESSENTIEL radio vous fournit aussi les paroles !!!");
     if(currentNode==nextNode2){
@@ -113,7 +119,7 @@ function changeInfo(){
     }else{
         var next="";
         if (nextNode!=null){
-              next=getTitle(nextNode)+" | "+getArtiste(nextNode);
+              next=nextNode.titre_nom+" | "+ nextNode.artiste_nom;
         }
         changeComingSoon(next);
 
@@ -185,11 +191,10 @@ function stopCounter(){
     clearInterval(tim);
 }
 
-function resetCounter(){
+/*function resetCounter(){
     clearInterval(tim);
     runCounter();
-
-}
+}*/
 //====================================================================
 
 function calculateTimeDiff(firstValue, secondValue){
@@ -199,17 +204,11 @@ function calculateTimeDiff(firstValue, secondValue){
     return secondValue.diff(firstValue);
 }
 
-function convertInMillisecond(length){
-    return ((length[0]*60+length[1])*60+length[2])*1000;
-}
-
 //=======================================================================
 
 function changeCurrentImage(imageUrl){
     var element=document.getElementById("current-radio");
 
-    //element.setAttribute("src",imageUrl);
-    //element.setAttribute("style","max-width:100%;height:auto;" );
     element.src=imageUrl;
     if (imageUrl == imER || imageUrl == imFR){
         //do nothing
@@ -237,24 +236,9 @@ function changeComingSoon(coming){
     document.getElementById('coming_soon').innerHTML="Coming soon: "+coming;
 }
 
-function getImage(songNode){
-    var imageElement = songNode.getElementsByTagName("image")[0];
-    return imageElement.textContent;
-}
-
-function getTitle(songNode){
-    var titleElement = songNode.getElementsByTagName("title")[0];
-    return titleElement.textContent;
-}
-
-function getArtiste(songNode){
-    var artisteElement = songNode.getElementsByTagName("artiste")[0];
-    return artisteElement.textContent; 
-}
 
 function getLength(songNode){
-    var lengthElement = songNode.getElementsByTagName("length")[0];
-    var data = lengthElement.textContent.split(":");
+    var data = songNode.titre_duree.split(":");
     var result = new Map();
     result.set('minutes',parseInt(data[0]));
     result.set('seconds',parseInt(data[1]));
@@ -262,23 +246,13 @@ function getLength(songNode){
 }
 
 function getLengthInMilli(songNode){
-    var lengthElement = songNode.getElementsByTagName("length")[0];
-    var data = lengthElement.textContent.split(":");
-    return parseInt(data[0])*60*1000 + parseInt(data[1]*1000)
-}
-
-function getAlbum(songNode){
-    var albumElement = songNode.getElementsByTagName("album")[0];
-    return albumElement.textContent;
-}
-
-function getStartTimeArray(songNode){
-	return getStartTime(songNode).split(" ");
+    var data = songNode.titre_duree.split(":");
+    return parseInt(data[0])*60*1000 + parseInt(data[1]*1000);
 }
 
 function getStartTime(songNode) {
-	var startTimeElement= songNode.getElementsByTagName("startTime")[0];
-	return startTimeElement.textContent;
+	//var startTimeElement= songNode.getElementsByTagName("startTime")[0];
+	return songNode.titre_diffusion_date;
 }
 
 

@@ -24,5 +24,11 @@
             "type": "registry",
             "id": "com.plugin.datepicker"
         }
+    },
+    "nl.x-services.plugins.toast": {
+        "source": {
+            "type": "registry",
+            "id": "nl.x-services.plugins.toast"
+        }
     }
 }

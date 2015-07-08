@@ -66,7 +66,8 @@ function setSongsInfo(){
 function playAudio() {
     window.plugins.spinnerDialog.show(null, null, true);
     if (!playing){
-        if(my_media==null){
+        if(my_media == null){
+
             my_media = new Media(currentStream, onSuccess, onError, mediaStatus);
         }       
         my_media.play();
@@ -125,17 +126,17 @@ function switchTo(radio){
                 currentStream=STREAMS.fr;
                 currentUrl=BASE_URL+radio;
                 document.getElementById('current-radio').setAttribute("src","img/fr_logo.png" );
-            }else if(radio==RADIO_ID.er){
+        }else if(radio==RADIO_ID.er){
                 currentStream=STREAMS.er;
                 currentUrl=BASE_URL+radio;
                 document.getElementById('current-radio').setAttribute("src","img/logo.png" );
 
-            }
-            radioOnAir=radio;
-            my_media.release();
-            my_media=null;
-            playing=false;
-            setSongsInfo();
+        }
+        radioOnAir=radio;
+        my_media.release();
+        my_media=null;
+        playing=false;
+        setSongsInfo();
     }
 
 }
